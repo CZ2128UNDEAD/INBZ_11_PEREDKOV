@@ -15,7 +15,7 @@ public class DZ_2_10_Peredkov_A_V {
         System.out.println("Введите значение конечной температуры воды в градусах под цельсию: ");
         double enterEnd_Temperature = input.nextDouble();
         final double currentEnergyJoules = enterWater_Mass * (enterEnd_Temperature - enterStart_Temperature) * 4184;
-        System.out.println("Кол-во воды составляет: " +enterWater_Mass+ " кг"+
+        System.out.println(" Кол-во воды составляет: " +enterWater_Mass+ " кг"+
                            "\nНачальная температура воды составляет: " +enterStart_Temperature+ " градусов под цельсию"+
                            "\nКонечная температура воды составляет: " +enterEnd_Temperature+ " градусов под цельсию"+
                            "\nНеобходимое количество энергии для нагрева воды в джоулях составляет " +currentEnergyJoules);

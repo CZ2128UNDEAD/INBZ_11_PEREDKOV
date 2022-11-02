@@ -23,6 +23,6 @@ public class DZ_2_8_Peredkov_A_V {
         // totalHours - Общее кол-во часов
         long currentHour = (totalHours % 24) + offset;
         // currentHour - Вычисление текущего часа
-        System.out.println("Текущее время составляет: " + currentHour + ":" + currentMinute + ":" + currentSecond);
+        System.out.println(" Текущее время составляет: " + currentHour + ":" + currentMinute + ":" + currentSecond);
     }
 }

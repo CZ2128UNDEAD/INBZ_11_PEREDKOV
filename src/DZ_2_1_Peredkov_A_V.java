@@ -9,7 +9,7 @@ public class DZ_2_1_Peredkov_A_V {
     //
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Введите температуру в градусах цельсия:");
+        System.out.println(" Введите температуру в градусах цельсия:");
         double celsius = input.nextDouble();
         final double fahrenheit = 9.0/5*celsius+32;
         System.out.println(fahrenheit);

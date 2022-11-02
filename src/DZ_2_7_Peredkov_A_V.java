@@ -10,7 +10,7 @@ public class DZ_2_7_Peredkov_A_V {
         int enterMinutes = input.nextInt();
         int years = enterMinutes / 525600;
         int days = (enterMinutes % 525600) / 1440;
-        System.out.println("Кол-во минут составляет: " + enterMinutes +
+        System.out.println(" Кол-во минут составляет: " + enterMinutes +
                 "\nИз этого значения количество лет составляет: " + years +
                 "\nИз этого значения количество дней составляет: " + days);
     }

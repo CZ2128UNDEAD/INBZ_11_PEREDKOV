@@ -13,6 +13,6 @@ public class DZ_2_5_Peredkov_A_V {
         double gratuityRate = input.nextDouble();
         final double gratuity = subtotal * (gratuityRate / 100);
         final double total = subtotal + gratuity;
-        System.out.println("Чаевые составляют " + gratuity + "\n Общая сумма составляет " + total);
+        System.out.println(" Чаевые составляют " + gratuity + "\n Общая сумма составляет " + total);
     }
 }
