@@ -16,7 +16,7 @@ public class DZ_2_9_Peredkov_A_V {
         double enterT = input.nextDouble();
         final double average = enterV1 - enterV0 / enterT;//(переменная закрепленна как константа)
 
-        System.out.println( "Начальная скорость в метрах составляет: " +enterV0+
+        System.out.println( " Начальная скорость в метрах составляет: " +enterV0+
                             "\nКонечная скорость в метрах составляет: " +enterV1+
                             "\nПромежуток времени в секундах составляет: " +enterT+
                             "\nСреднее ускорение составляет " +average);

@@ -7,7 +7,7 @@ public class DZ_2_4_Peredkov_A_V {
     //Фунт(pounds) = 0,454 килограмма.
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Введите кол-во фунтов: ");
+        System.out.println(" Введите кол-во фунтов: ");
         double pounds = input.nextDouble();//ФУНТ
         final double kilograms = pounds * 0.454;//КГ=ФУНТ*0.454(переменная закрепленна как константа)
         System.out.println(pounds + " Фунтов равен " + kilograms + " килограммам");

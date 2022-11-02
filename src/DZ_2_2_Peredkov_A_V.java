@@ -15,6 +15,6 @@ public class DZ_2_2_Peredkov_A_V {
         double length = input.nextDouble();//Длина
         final double area = radius * radius * PI;//площадь
         final double volume = area * length;//Объем
-        System.out.println("Площадь составляет: " + area + "\n Объём составляет: " + volume );
+        System.out.println("Площадь составляет: " + area + "\n  Объём составляет: " + volume );
     }
 }

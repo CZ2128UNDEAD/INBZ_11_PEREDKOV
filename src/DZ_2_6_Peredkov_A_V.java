@@ -15,7 +15,7 @@ public class DZ_2_6_Peredkov_A_V {
         selectNumber /= 10;
         int addThreeValue = selectNumber % 10;//Сотни
         int total = addOneValue + addTwoValue + addThreeValue;
-        System.out.println("\nПервое значение из сотен: " + addThreeValue +
+        System.out.println("\n Первое значение из сотен: " + addThreeValue +
                 "\nВторое значение из десятков: " + addTwoValue +
                 "\nТретье значение из единиц: " + addOneValue +
                 "\n\nСумма трёх значений: " + addThreeValue + "+" + addTwoValue + "+" + addOneValue + " = " + total);

@@ -13,7 +13,7 @@ public class DZ_2_12_Peredkov_A_V {
         System.out.println( "Введите значение ускорения самолета в метрах в секунду: " );
         double enterAcceleration = input.nextDouble();
         final double length = Math.pow(enterSpeed, 2) / (2 * enterAcceleration);
-        System.out.println( "Минимальная длина взлетно-посадочной полосы для взлета самолета" +
+        System.out.println( " Минимальная длина взлетно-посадочной полосы для взлета самолета" +
                             " при скорости: " +enterSpeed+
                             " и ускорении: " +enterAcceleration+
                             " составляет : " +length);
